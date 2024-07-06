@@ -115,7 +115,7 @@ public class cmv {
     }
 /////////// Consultando a API da ExchangeRate-API \\\\\\\\\\
     private static double convertCurrency(String from, String to, double amount) throws Exception {
-        String apiKey = "b634f3d97e1c979078a2cb87"; // Nesse local deve ser substituido o valor pela chave de API da ExchangeRate-API
+        String apiKey = "INFORMAR A API-KEY"; // Nesse local deve ser substituido o valor pela chave de API da ExchangeRate-API
         String apiUrl = "https://v6.exchangerate-api.com/v6/" + apiKey + "/pair/" + from + "/" + to;
 
         URL url = new URL(apiUrl);
